@@ -60,7 +60,13 @@ const Ispisnovi = ({ listaImena }) => {
         </label>
         <button
           onClick={() => {
-            setNames([...names, { id: crypto.randomUUID(), name: text, years: parseInt(years, 10) || 0 },
+            setNames([
+              ...names,
+              {
+                id: crypto.randomUUID(),
+                name: text,
+                years: parseInt(years, 10) || 0,
+              },
             ]);
             setText("");
             setYears("");

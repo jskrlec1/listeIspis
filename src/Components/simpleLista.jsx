@@ -1,4 +1,4 @@
-import React, { createElement, createRef, useRef } from "react";
+import React /*{ createElement, createRef, useRef }*/ from "react";
 
 const Simplelista = () => {
   const numbers = [1, 2, 3, 4, 5, 1, 2];

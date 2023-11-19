@@ -6,10 +6,10 @@ const Ispisimena = ({ listaImena }) => {
   return (
     <div>
       <Button as="a" variant="primary">
-        Button as link
+        Gumb1
       </Button>
       <Button as="a" variant="success">
-        Button as link
+        Gumb2
       </Button>
 
       <h2>Popis imena</h2>
